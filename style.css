@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    background: white;
+    margin: 0;
+  
+  }
+  .content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+  }
+  nav{
+    background: #48D1CC;
+    margin-bottom: 10px;
+  }
+  
+  .align{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .align a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+  }
+  .align a:hover{
+    background-color: #00FFFF;
+    color:black;
+  }
+  
+  h1{
+    font-family: 'Caveat', cursive;
+    font-size: 5em;
+    font-weight: 700;
+    margin: 0;
+  }
+  h2{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 0;
+    margin: 0;
+  }
+  h3{
+    font-family: 'Caladea', serif;
+    font-size: 2em;
+  }
+  p{
+    font-family: 'Caladea', serif;
+    font-size: 1.5em;
+  }
+  
+  .profile-img{
+    border-radius: 50%;
+    /*float: left;
+    width: 300px;
+    margin-right: 30px*/
+  }
+  .column-narrow{
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+  }
+  .column-wide{
+   width: 70%; 
+   float: left;
+   min-height: 225px; 
+  }
+  /* Header & Footer 
+  ------------------------------------*/
+  header, footer{
+    background: #008B8B;
+  }
+  footer{
+    text-align: center;
+  }
+  .contact-info a{
+   padding: 10px; 
+   display: inline-block;
+   color: red;
+   font-size: 1.5em;
+  }
+  
+  
+  /* Work Experience
+  ------------------------------------*/
+  .WorkExp{
+    background: #48D1CC;
+    
+  }
+  
+  
+  /* Education
+  ------------------------------------*/
+  .Education{
+     background: linear-gradient(rgba(70,130,180, 0.7),
+                   rgba(70,130,180, 0.7)),
+                   url(https://cdn.glitch.com/b6e15bbc-1f17-4f88-b61e-5a428dcbeac9%2FkiKop4LRT.jpg?v=1583536695170) no-repeat fixed 0px 0px / cover;
+  }
