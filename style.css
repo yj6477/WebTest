@@ -16,7 +16,7 @@ html {
     overflow: hidden;
   }
   nav{
-    background: #48D1CC;
+    background: #ffffff;
     margin-bottom: 10px;
   }
   
@@ -36,7 +36,7 @@ html {
     display: inline-block;
   }
   .align a:hover{
-    background-color: #00FFFF;
+    background-color: #e61111;
     color:black;
   }
   
@@ -82,7 +82,7 @@ html {
   /* Header & Footer 
   ------------------------------------*/
   header, footer{
-    background: #008B8B;
+    background: #ffffff;
   }
   footer{
     text-align: center;
@@ -98,7 +98,7 @@ html {
   /* Work Experience
   ------------------------------------*/
   .WorkExp{
-    background: #48D1CC;
+    background: #ffffff;
     
   }
   
@@ -108,5 +108,5 @@ html {
   .Education{
      background: linear-gradient(rgba(70,130,180, 0.7),
                    rgba(70,130,180, 0.7)),
-                   url(https://cdn.glitch.com/b6e15bbc-1f17-4f88-b61e-5a428dcbeac9%2FkiKop4LRT.jpg?v=1583536695170) no-repeat fixed 0px 0px / cover;
+                   url(randimg.png) no-repeat fixed 0px 0px / cover;
   }
